@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: rgba(156, 183, 224, 0.5);
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.container{
+    /* max-width: 1220px; */
+    /* width: 1220px; */
+    margin: 0 auto;
+}
+
+/* **********************************
+**********MAIN***********************
+********************************** */
+
+
+.registration, .entrance{
+    background-color: #1F519C;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.registration__title, .entrance__title{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 145px;
+}
+
+.registration form, .entrance form{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration input, .entrance input{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    background: rgba(156, 183, 224, 0.5);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 0 15px;
+    outline: none;
+    margin: 0 auto;
+}
+
+.registration input::placeholder, .entrance input::placeholder{
+    color: white;
+}
+
+.registration input:first-child, .entrance input:first-child{
+    margin-bottom: 50px;
+}
+
+.registration input#button, .entrance input#button{
+    width: 230px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    margin-top: 121px;
+}
+
+.registration a, .entrance a{
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.entrance{
+    display: none;
+    
+}
